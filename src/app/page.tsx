@@ -1,55 +1,62 @@
+"use client";
+
 import { ServiceDirectory } from "@/components/service-directory";
+import { useState, useEffect } from "react";
 import { parse } from 'papaparse';
 import type { Service, Category } from "@/lib/types";
 
-async function getServices(): Promise<Service[]> {
-  const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'https://dsk-divyanshbhai.vercel.app';
-  const res = await fetch(`${baseUrl}/data/services.csv`);
-  const csvFile = await res.text();
+export default function Home() {
+  const [services, setServices] = useState<Service[]>([]);
+  const [categories, setCategories] = useState<Category[]>([]);
 
-  return new Promise((resolve) => {
-    parse(csvFile, {
-      header: true,
-      skipEmptyLines: true,
-      complete: (results) => {
-        const services = results.data.map((row: any) => ({
-          id: row.id,
-          category: row.category,
-          name: { en: row.name_en, hi: row.name_hi },
-          description: { en: row.description_en, hi: row.description_hi },
-          link: row.link,
-          isOfficial: row.isOfficial === 'true',
-        }));
-        resolve(services as Service[]);
-      },
-    });
-  });
-}
+  useEffect(() => {
+    const loadData = async () => {
+      try {
+        const [servicesRes, categoriesRes] = await Promise.all([
+          fetch('/data/services.csv'),
+          fetch('/data/categories.csv')
+        ]);
 
-async function getCategories(): Promise<Category[]> {
-    const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'https://dsk-divyanshbhai.vercel.app';
-    const res = await fetch(`${baseUrl}/data/categories.csv`);
-    const csvFile = await res.text();
+        const [servicesText, categoriesText] = await Promise.all([
+          servicesRes.text(),
+          categoriesRes.text()
+        ]);
 
-    return new Promise((resolve) => {
-        parse(csvFile, {
-            header: true,
-            skipEmptyLines: true,
-            complete: (results) => {
-                const categories = results.data.map((row: any) => ({
-                    id: row.id,
-                    name: { en: row.name_en, hi: row.name_hi },
-                    icon: row.icon,
-                }));
-                resolve(categories as Category[]);
-            },
+        parse(servicesText, {
+          header: true,
+          skipEmptyLines: true,
+          complete: (results) => {
+            const servicesData = results.data.map((row: any) => ({
+              id: row.id,
+              category: row.category,
+              name: { en: row.name_en, hi: row.name_hi },
+              description: { en: row.description_en, hi: row.description_hi },
+              link: row.link,
+              isOfficial: row.isOfficial === 'true',
+            }));
+            setServices(servicesData as Service[]);
+          },
         });
-    });
-}
 
-export default async function Home() {
-  const services = await getServices();
-  const categories = await getCategories();
+        parse(categoriesText, {
+          header: true,
+          skipEmptyLines: true,
+          complete: (results) => {
+            const categoriesData = results.data.map((row: any) => ({
+              id: row.id,
+              name: { en: row.name_en, hi: row.name_hi },
+              icon: row.icon,
+            }));
+            setCategories(categoriesData as Category[]);
+          },
+        });
+      } catch (error) {
+        console.error('Failed to load data:', error);
+      }
+    };
+
+    loadData();
+  }, []);
 
   return (
     <main className="min-h-screen w-full">
