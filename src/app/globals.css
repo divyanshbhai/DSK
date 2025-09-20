@@ -85,7 +85,7 @@
   }
   body {
     @apply bg-background text-foreground;
-    background-image: url('https://img.freepik.com/free-vector/winter-blue-pink-gradient-background-vector_53876-117276.jpg?t=st=1758368497~exp=1758372097~hmac=87d8ba91a5355fe8e6c7e422e05865ecaf28aee5ef14e6ae9c33b7405e21721f&w=2000');
+    background-image: url('/bg.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
