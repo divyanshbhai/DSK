@@ -3,7 +3,8 @@ import { parse } from 'papaparse';
 import type { Service, Category } from "@/lib/types";
 
 async function getServices(): Promise<Service[]> {
-  const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/data/services.csv`);
+  const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'https://dsk-divyanshbhai.vercel.app';
+  const res = await fetch(`${baseUrl}/data/services.csv`);
   const csvFile = await res.text();
 
   return new Promise((resolve) => {
@@ -26,7 +27,8 @@ async function getServices(): Promise<Service[]> {
 }
 
 async function getCategories(): Promise<Category[]> {
-    const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/data/categories.csv`);
+    const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'https://dsk-divyanshbhai.vercel.app';
+    const res = await fetch(`${baseUrl}/data/categories.csv`);
     const csvFile = await res.text();
 
     return new Promise((resolve) => {
