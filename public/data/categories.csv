@@ -1,0 +1,22 @@
+id,name_en,name_hi,icon
+health,Health,स्वास्थ्य,HeartPulse
+gas,Gas,गैस,Flame
+pension,Pension,पेंशन,Landmark
+water,Water,पानी,Droplets
+travel,Travel,यात्रा,Plane
+fee-payment,Fee Payment,शुल्क भुगतान,Receipt
+loan,Loan,ऋण,Banknote
+education,Education,शिक्षा,GraduationCap
+skills,Skills,कौशल,Wrench
+estore,eStore,ई-स्टोर,ShoppingCart
+services,Services,सेवाएं,Cog
+agriculture,Agriculture,कृषि,Tractor
+banking,Banking,बैंकिंग,Bank
+government,Government,सरकार,Scale
+insurance,Insurance,बीमा,Shield
+electricity,Electricity,बिजली,Zap
+bbps-lite,BBPS Lite,बीबीपीएस लाइट,IndianRupee
+fastag,FASTag,फास्टैग,Car
+telecom,Telecom,दूरसंचार,Signal
+tax-payment,Tax Payment,कर भुगतान,FileText
+dth,DTH,डीटीएच,Satellite

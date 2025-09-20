@@ -1,0 +1,51 @@
+id,name_en,name_hi,link,category_en,category_hi,icon
+merge_pdf,Merge PDF,पीडीएफ मिलाएं,https://www.ilovepdf.com/merge_pdf,PDF Tools,पीडीएफ उपकरण,FilePlus
+split_pdf,Split PDF,पीडीएफ विभाजित करें,https://www.sejda.com/split-pdf,PDF Tools,पीडीएफ उपकरण,FileMinus
+compress_pdf,Compress PDF,पीडीएफ कंप्रेस करें,https://www.ilovepdf.com/compress_pdf,PDF Tools,पीडीएफ उपकरण,FileArchive
+pdf_to_word,PDF to Word,पीडीएफ से वर्ड,https://www.smallpdf.com/pdf-to-word,PDF Tools,पीडीएफ उपकरण,FileText
+pdf_to_ppt,PDF to PowerPoint,पीडीएफ से पावरपॉइंट,https://www.ilovepdf.com/pdf_to_powerpoint,PDF Tools,पीडीएफ उपकरण,FileBarChart2
+pdf_to_excel,PDF to Excel,पीडीएफ से एक्सेल,https://www.ilovepdf.com/pdf_to_excel,PDF Tools,पीडीएफ उपकरण,FileSpreadsheet
+word_to_pdf,Word to PDF,वर्ड से पीडीएफ,https://www.ilovepdf.com/word_to_pdf,PDF Tools,पीडीएफ उपकरण,FileText
+ppt_to_pdf,PowerPoint to PDF,पावरपॉइंट से पीडीएफ,https://www.ilovepdf.com/powerpoint_to_pdf,PDF Tools,पीडीएफ उपकरण,FileBarChart2
+excel_to_pdf,Excel to PDF,एक्सेल से पीडीएफ,https://www.ilovepdf.com/excel_to_pdf,PDF Tools,पीडीएफ उपकरण,FileSpreadsheet
+edit_pdf,Edit PDF,पीडीएफ संपादित करें,https://www.sejda.com/edit-pdf,PDF Tools,पीडीएफ उपकरण,FileEdit
+pdf_to_jpg,PDF to JPG,पीडीएफ से जेपीजी,https://www.ilovepdf.com/pdf_to_jpg,PDF Tools,पीडीएफ उपकरण,FileImage
+jpg_to_pdf,JPG to PDF,जेपीजी से पीडीएफ,https://www.ilovepdf.com/jpg_to_pdf,PDF Tools,पीडीएफ उपकरण,FileImage
+sign_pdf,Sign PDF,पीडीएफ पर हस्ताक्षर करें,https://www.smallpdf.com/sign-pdf,PDF Tools,पीडीएफ उपकरण,PenTool
+watermark_pdf,Watermark PDF,पीडीएफ में वॉटरमार्क,https://www.ilovepdf.com/watermark,PDF Tools,पीडीएफ उपकरण,Droplets
+rotate_pdf,Rotate PDF,पीडीएफ घुमाएँ,https://www.ilovepdf.com/rotate_pdf,PDF Tools,पीडीएफ उपकरण,RotateCw
+html_to_pdf,HTML to PDF,एचटीएमएल से पीडीएफ,https://pdfcrowd.com/,PDF Tools,पीडीएफ उपकरण,Globe
+unlock_pdf,Unlock PDF,पीडीएफ अनलॉक करें,https://www.smallpdf.com/unlock-pdf,PDF Tools,पीडीएफ उपकरण,Unlock
+protect_pdf,Protect PDF,पीडीएफ सुरक्षित करें,https://www.smallpdf.com/protect-pdf,PDF Tools,पीडीएफ उपकरण,Lock
+organize_pdf,Organize PDF,पीडीएफ व्यवस्थित करें,https://www.ilovepdf.com/organize-pdf,PDF Tools,पीडीएफ उपकरण,Folders
+pdf_a_conversion,PDF/A Conversion,पीडीएफ/ए रूपांतरण,https://www.pdf24.org/en/pdf-a-converter,PDF Tools,पीडीएफ उपकरण,FileCheck2
+repair_pdf,Repair PDF,पीडीएफ सुधारें,https://www.pdf2go.com/repair-pdf,PDF Tools,पीडीएफ उपकरण,FileWrench
+page_numbers,Page Numbers,पृष्ठ संख्याएँ,https://www.ilovepdf.com/add_page_numbers,PDF Tools,पीडीएफ उपकरण,Hash
+scan_to_pdf,Scan to PDF,स्कैन से पीडीएफ,https://www.google.com/drive/download/,PDF Tools,पीडीएफ उपकरण,ScanLine
+ocr_pdf,OCR PDF,ओसीआर पीडीएफ,https://www.onlineocr.net/,PDF Tools,पीडीएफ उपकरण,ScanText
+compare_pdf,Compare PDF,पीडीएफ की तुलना करें,https://draftable.com/compare,PDF Tools,पीडीएफ उपकरण,GitCompareArrows
+redact_pdf,Redact PDF,पीडीएफ संशोधित करें,https://www.pdfzorro.com/en/redact-pdf,PDF Tools,पीडीएफ उपकरण,Scissors
+crop_pdf,Crop PDF,पीडीएफ क्रॉप करें,https://www.ilovepdf.com/crop_pdf,PDF Tools,पीडीएफ उपकरण,Crop
+compress_image,Compress Image,छवि कंप्रेस करें,https://tinypng.com/,Image Tools,छवि उपकरण,Minimize
+resize_image,Resize Image,छवि का आकार बदलें,https://resizeimage.net/,Image Tools,छवि उपकरण,Maximize
+crop_image,Crop Image,छवि क्रॉप करें,https://ezgif.com/crop,Image Tools,छवि उपकरण,Crop
+convert_to_jpg,Convert to JPG,जेपीजी में बदलें,https://www.ilovepdf.com/convert-to-jpg,Image Tools,छवि उपकरण,ImageIcon
+convert_from_jpg,Convert from JPG,जेपीजी से बदलें,https://convertio.co/,Image Tools,छवि उपकरण,RefreshCw
+photo_editor,Photo Editor,फोटो संपादक,https://www.photopea.com/,Image Tools,छवि उपकरण,Palette
+upscale_image,Upscale Image,छवि अपस्केल करें,https://www.upscale.media/,Image Tools,छवि उपकरण,ArrowUpRight
+remove_background,Remove Background,बैकग्राउंड हटाएं,https://www.remove.bg/,Image Tools,छवि उपकरण,Eraser
+watermark_image,Watermark Image,छवि में वॉटरमार्क,https://www.watermarkly.com/,Image Tools,छवि उपकरण,Droplets
+meme_generator,Meme Generator,मीम जेनरेटर,https://imgflip.com/memegenerator,Image Tools,छवि उपकरण,SmilePlus
+rotate_image,Rotate Image,छवि घुमाएँ,https://ezgif.com/rotate,Image Tools,छवि उपकरण,RotateCw
+html_to_image,HTML to Image,एचटीएमएल से छवि,https://www.web-capture.net/,Image Tools,छवि उपकरण,Globe
+blur_face,Blur Face,चेहरा धुंधला करें,https://www.facepixelizer.com/,Image Tools,छवि उपकरण,CircleDot
+irctc,IRCTC Train Booking,IRCTC ट्रेन बुकिंग,https://www.irctc.co.in/,Quick Payments & Transport,त्वरित भुगतान और परिवहन,Train
+dmrc_recharge,DMRC Smart Card,DMRC स्मार्ट कार्ड,https://www.dmrcsmartcard.com/,Quick Payments & Transport,त्वरित भुगतान और परिवहन,Subway
+bses_bill,BSES Bill Pay,BSES बिल भुगतान,https://www.bsesdelhi.com/web/bypl/online-payment,Quick Payments & Transport,त्वरित भुगतान और परिवहन,Lightbulb
+jal_board_bill,Delhi Jal Board Bill,दिल्ली जल बोर्ड बिल,https://djb.gov.in/DJBPortal/portals/DJB/Online/BillPayment/index.html,Quick Payments & Transport,त्वरित भुगतान और परिवहन,Waves
+bbps_payment,Bharat Bill Payment,भारत बिल भुगतान,https://www.bharatbillpay.com/,Quick Payments & Transport,त्वरित भुगतान और परिवहन,IndianRupee
+mobile_recharge,Mobile Recharge,मोबाइल रिचार्ज,https://paytm.com/recharge,Quick Payments & Transport,त्वरित भुगतान और परिवहन,Smartphone
+eaadhaar,eAadhaar Download,ई-आधार डाउनलोड,https://myaadhaar.uidai.gov.in/,Other Handy Shortcuts,अन्य उपयोगी शॉर्टकट,Fingerprint
+pan_status,PAN Status,पैन स्थिति,https://tin.tin.nsdl.com/pantan/StatusTrack.html,Other Handy Shortcuts,अन्य उपयोगी शॉर्टकट,CreditCard
+passport_seva,Passport Seva,पासपोर्ट सेवा,https://www.passportindia.gov.in/,Other Handy Shortcuts,अन्य उपयोगी शॉर्टकट,BookUser
+voter_registration,Voter Registration,मतदाता पंजीकरण,https://voters.eci.gov.in/,Other Handy Shortcuts,अन्य उपयोगी शॉर्टकट,Vote
